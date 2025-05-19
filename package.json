@@ -40,9 +40,9 @@
 		"eslint-config-prettier": "^9.0.0",
 		"eslint-plugin-prettier": "^5.0.1",
 		"husky": "^8.0.3",
-		"lint-staged": "^16.0.0",
+		"lint-staged": "^14.0.1",
 		"prettier": "^3.0.3",
-		"tsup": "^8.5.0",
+		"tsup": "^6.2.3",
 		"typescript": "^4.8.4",
 		"vue-eslint-parser": "^9.3.2"
 	},
@@ -57,11 +57,5 @@
 			"prettier --write"
 		],
 		"**/*.{js,jsx,vue,ts,tsx,json,less}": "prettier --write"
-	},
-	"dependencies": {
-		"hexo-renderer-ejs": "^2.0.0",
-		"hexo-renderer-less": "^4.0.0",
-		"hexo-renderer-marked": "7.0.1",
-		"hexo-theme-async": "^0.0.0"
 	}
 }
